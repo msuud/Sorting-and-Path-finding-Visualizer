@@ -1,0 +1,41 @@
+* {
+  padding-top: 2px;
+}
+
+.array-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.array-bar {
+  width: 10px;
+  background-color: lightblue;
+  margin: 0 1px;
+}
+
+.comparing {
+  background-color: red !important;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
